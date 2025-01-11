@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 150px;
+    background-image:   url(/img/background.gif);
+    /*background-blend-mode: hard-light;*/
+    background-repeat:  repeat;
+    border: 5px solid white;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    position: center;
+
+
+}
+.move-button {
+    background-color: transparent;
+    border: 3px solid white;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.move-buttton {
+    height: 80px;
+    background-color: transparent;
+}
+
+.scoreees{
+    margin-top: 50px;
+}
+
+.paper-move{
+    height: 80px;
+    background-color: transparent;  
+}
+.rock-move {
+    height: 80px;
+    background-color:transparent;
+}
+.scissor-move{
+    height: 80px;
+    background-color:transparent ;
+}
+
+.resultt{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.score-butttton{
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    padding: 8px 15px;
+    cursor: pointer;
+}
